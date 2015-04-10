@@ -5,6 +5,7 @@ size_t find_rotated_count(const std::vector<int>& arr);
 
 int main(int argc, char* argv[])
 {
+    // Assuming left-shift.
     std::vector<int> arr_rotated_3 = {4, 5, 1, 2, 3};
     std::vector<int> arr_rotated_4 = {5, 1, 2, 3, 4};
     std::vector<int> arr_rotated_5 = {6, 7, 8, 9, 10, 1, 2, 3, 4, 5};
